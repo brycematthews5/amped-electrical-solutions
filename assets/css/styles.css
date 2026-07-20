@@ -352,8 +352,10 @@ section.tight { padding-block: var(--space-5); }
 .hero-art img { max-height: 220px; width: auto; }
 
 @media (max-width: 900px) {
+  .hero { padding-block: var(--space-5) var(--space-5); }
   .hero .container { grid-template-columns: 1fr; }
-  .hero-art { order: -1; max-width: 320px; margin-inline: auto; }
+  .hero-art { max-width: 180px; margin-inline: auto; aspect-ratio: 1/1; padding: var(--space-2); }
+  .hero-art img { max-height: 110px; }
 }
 
 /* ---------- Cards / Services ---------- */
