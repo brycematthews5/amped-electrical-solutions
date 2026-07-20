@@ -340,22 +340,16 @@ section.tight { padding-block: var(--space-5); }
 .hero-badge svg { width: 1.5em; height: 1.5em; color: var(--color-amber); flex-shrink: 0; }
 
 .hero-art {
-  background: var(--color-navy-light);
-  border: 1px solid rgba(255,255,255,0.12);
-  border-radius: var(--radius-lg);
-  aspect-ratio: 4/3;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: var(--space-4);
 }
-.hero-art img { max-height: 220px; width: auto; }
+.hero-art img { max-height: 260px; width: auto; }
 
 @media (max-width: 900px) {
   .hero { padding-block: var(--space-5) var(--space-5); }
   .hero .container { grid-template-columns: 1fr; }
-  .hero-art { max-width: 180px; margin-inline: auto; aspect-ratio: 1/1; padding: var(--space-2); }
-  .hero-art img { max-height: 110px; }
+  .hero-art img { max-height: 130px; }
 }
 
 /* ---------- Cards / Services ---------- */
