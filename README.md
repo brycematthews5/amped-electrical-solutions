@@ -9,7 +9,7 @@ Everything below currently uses **placeholder values**. Search each file for the
 | Placeholder | Found in | Replace with |
 |---|---|---|
 | `(307) 267-3299` / `+13072673299` | every page, header + footer + call bar | Your real business phone number (keep the `tel:+1XXXXXXXXXX` format in `href`) |
-| `info@ampedelectricalsolutions.com` | footer, contact page | Your real business email |
+| `jdgoodrich@ampedelectricalsolutions.com` | footer, contact page | Your real business email |
 | "Wheatland, WY & All of Platte County" | header badges, footer, contact page | Your real service area, if different |
 | "Mon–Fri 8am–5pm · Emergency Service 24/7" | footer, contact page | Your real hours |
 | "Our Story" paragraphs on `about.html` | about page | Your own background/story |
